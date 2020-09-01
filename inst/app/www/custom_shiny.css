@@ -1,0 +1,213 @@
+/* different button */
+/* adjusted to "OK" button in helpers */
+.btn{
+  display: inline-block;
+  background-color: rgb(102, 205, 170);
+  color: #ffffff;
+  width: 15%;
+}
+/* location of button "OK" in helpers */
+.modal-footer{
+  text-align: center;
+}
+
+
+
+.skin-blue .main-header .logo {
+    font-family: "Georgia", Times, "Times New Roman", serif;
+    font-weight: bold;
+    font-size: 24px;
+}
+.skin-blue .main-header .logo {
+    background-color: #00695c;
+    color: #ffffff;
+}
+.home {
+ color: #ffffff;
+}
+.home:hover {
+ cursor: pointer; 
+ color: #ffffff;
+}
+.skin-blue .main-header .logo:hover {
+    background-color:  #004d40;
+}
+.skin-blue .main-header .navbar {
+    background: linear-gradient(to right, #00695c 10%, #66cdaa 90%);
+}
+.skin-blue .main-sidebar {
+    background-color: #37474f;
+}
+.skin-blue .main-sidebar .sidebar .sidebar-menu .active a{
+    background-color: #263238;
+    border-left-color: #00695c;
+}
+.skin-blue .main-sidebar .sidebar .sidebar-menu a{
+    background-color: #37474f;
+    color: #ffffff;
+}
+.skin-blue .main-sidebar .sidebar .sidebar-menu a:hover{
+    background-color: #263238;
+    border-left-color: #00695c;
+}
+.skin-blue .main-header .navbar .sidebar-toggle:hover{
+    background-color: #004d40;
+    color: #ffffff;
+}  
+.skin-blue .main-header .navbar .sidebar-toggle {
+    background-color: #00695c;
+    color: #ffffff;
+    display: none;
+}
+.progress-bar {
+    background-color: #66cdaa;
+    color: #263238;
+}
+.wrapper {
+  overflow-y: hidden;
+}
+.box-solid {
+    background-color: #263238;
+    min-height: 170px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.box-header {
+    color: #ffffff;
+    background-color: #263238;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.box-body {
+    color: #ffffff;
+    background-color: #263238;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.dataTables_wrapper .dataTables_length, .dataTables_wrapper .dataTables_filter, .dataTables_wrapper .dataTables_info, .dataTables_wrapper .dataTables_processing, .dataTables_wrapper .dataTables_paginate {
+  color: #ffffff;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button{
+  display:inline-block;
+  min-width:1.5em;
+  padding:0.5em 1em;
+  margin-left:2px;
+  text-align:center;
+  text-decoration:none;
+  cursor:pointer;
+  cursor:hand;
+  color:#ffffff !important;
+  border:1px solid transparent;
+  border-radius:2px
+}
+.dataTables_filter input {
+  color: #263238;
+  background-color: #ffffff;
+}
+thead {
+  color: #ffffff;
+}
+.dataTables_length select {
+  color: #263238;
+  background-color: #ffffff;
+}
+button.dt-button, div.dt-button, a.dt-button {
+  color: #ffffff;
+  border-radius: 5px;
+  background-color: #263238;
+  background-image: none;
+}
+button.dt-button:hover, div.dt-button:hover, a.dt-button:hover {
+  color: black;
+}
+.btn-predict {
+  background-color: #37474f;
+  color: #ffffff;
+  vertical-align: middle; 
+  height: 100%; 
+  width: 90%;
+}
+.btn-predict:hover {
+  background-color: #f4f4f4;
+  color: #000000;
+}
+.btn-predict:active {
+  background-color: #37474f;
+  color: #ffffff;
+}
+.btn-predict:focus {
+  background-color: #37474f;
+  color: #ffffff;
+}
+.footer {
+  position:fixed;
+  bottom:0;
+  width:100%;
+  height:30px;
+  color: #ffffff;
+  padding: 5px;
+  background-color: #263238;
+  z-index: 1000;
+  text-align: center;
+}
+.title-box-text {
+  font-family: "Georgia", Times, "Times New Roman", serif;
+  font-weight: bold;
+  font-size: 24px;
+  color: #66cdaa;
+}
+.shiny-notification {
+  height: 100px;
+  width: 800px;
+  position: fixed;
+  top: calc(50% - 20px);
+  left: calc(50% - 400px);
+  opacity: 1;
+  background-color: #ffffff;
+  color: #263238;
+  text-align: center;
+  border-radius: 5px;
+  font-family: 'Open Sans','Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  font-size: 24px;
+}
+/* unvisited link */
+a:link {
+  color: #00695c;
+}
+/* visited link */
+a:visited {
+  color: #00695c;
+}
+/* mouse over link */
+a:hover {
+  color: #66cdaa;
+}
+/* selected link */
+a:active {
+  color: #66cdaa;
+}
+
+.btn-file{
+  display: inline-block;
+  background-color: #f4f4f4;
+  color: #444;
+  width: 100%;
+}
+
+.updateDisplayedColumns{
+  display: inline-block;
+  background-color: #263238;
+  color: #ffffff;
+  width: 100%;
+  margin-top: 25px;
+}
+.selectedColumnsHelper{
+  color: #444;
+}
+pre.shiny-text-output {
+  color: #263238;
+  background-color: #ffffff;
+}
