@@ -10,7 +10,7 @@ calcRunRes(data_RFU)
 \item{data_RFU}{\code{data.frame} uploaded data frame for calculating features on with no cycle column}
 }
 \value{
-A data.frame with statisctics
+A data.frame with statistics
 }
 \description{
 Overload of calcRunRes() function to use inside shiny_encu()

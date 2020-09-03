@@ -1,4 +1,4 @@
-#' Extracts last extansion of a file
+#' Extracts last extension of a file
 #' 
 #' @param file \code{character} file to extract extension from
 #' 

@@ -2,7 +2,7 @@
 #' 
 #' @param data_RFU \code{data.frame} uploaded data frame for calculating features on with no cycle column
 #' 
-#' @return A data.frame with statisctics
+#' @return A data.frame with statistics
 #' 
 #' 
 calcRunRes <- function(data_RFU) {

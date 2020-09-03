@@ -1,6 +1,6 @@
 #' Calculates statistics on given data and updates a progress bar
 #' 
-#' @param dataset \code{data.frame} uploaded data frame for calculating statictics on
+#' @param dataset \code{data.frame} uploaded data frame for calculating statistics on
 #' 
 #' @return A character vector of length 1 with text to be displayed
 #' 

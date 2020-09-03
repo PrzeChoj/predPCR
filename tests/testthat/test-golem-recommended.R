@@ -25,7 +25,7 @@ test_that(
         "setwd('../../'); pkgload::load_all();run_app()"
       )
     )
-    Sys.sleep(5)
+    Sys.sleep(10) # app is loading quite long
     expect_true(x$is_alive())
     x$kill()
   }

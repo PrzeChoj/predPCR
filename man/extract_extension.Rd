@@ -2,7 +2,7 @@
 % Please edit documentation in R/extract_extension.R
 \name{extract_extension}
 \alias{extract_extension}
-\title{Extracts last extansion of a file}
+\title{Extracts last extension of a file}
 \usage{
 extract_extension(file)
 }
@@ -13,5 +13,5 @@ extract_extension(file)
 A last dot(.) and text after it
 }
 \description{
-Extracts last extansion of a file
+Extracts last extension of a file
 }

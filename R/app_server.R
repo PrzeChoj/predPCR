@@ -25,7 +25,7 @@ app_server <- function(input, output, session) {
     typeFile <- input[["filetype"]]
     
     if(typeFile == "Example File"){
-      value <- ncol_to_selectedColmns(11) # Example File has 11 columns
+      value <- ncol_to_selectedColumns(11) # Example File has 11 columns
       updateTextInput(session, "displayedColumns", value = value)
       selectedColumns(value)
       
@@ -72,7 +72,7 @@ app_server <- function(input, output, session) {
                            confirmButtonText = "OK",
                            confirmButtonCol = "#66cdaa")
     
-    value <- ncol_to_selectedColmns(ncol(load_dataset))
+    value <- ncol_to_selectedColumns(ncol(load_dataset))
     updateTextInput(session, "displayedColumns", value = value)
     selectedColumns(value)
     
