@@ -16,9 +16,9 @@ calcRunRes <- function(data_RFU) {
     
     seconds <- round((full_time / ith_run) * (ncol_data_RFU - ith_run)) # estimating remaining time
     if(seconds > 200){
-      incProgress(1/ncol_data_RFU, message = "Processing data", detail = paste0("wait ", round(seconds/60), " more minutes"))
+      shiny::incProgress(1/ncol_data_RFU, message = "Processing data", detail = paste0("wait ", round(seconds/60), " more minutes"))
     }else{
-      incProgress(1/ncol_data_RFU, message = "Processing data", detail = paste0("wait ", seconds, " more seconds"))
+      shiny::incProgress(1/ncol_data_RFU, message = "Processing data", detail = paste0("wait ", seconds, " more seconds"))
     }
     
     out

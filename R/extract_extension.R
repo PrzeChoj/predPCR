@@ -1,9 +1,9 @@
-#' Extracts last extension of a file
+#' Extracts last extension of a filename
 #' 
-#' @param file \code{character} file to extract extension from
+#' @param filename \code{character} filename to extract extension from
 #' 
 #' @return A last dot(.) and text after it
 #' 
-extract_extension <- function(file){
-  stringr::str_extract(file, "\\.([^\\.])+$")
+extract_extension <- function(filename){
+  stringr::str_extract(filename, "\\.([^\\.])+$")
 }

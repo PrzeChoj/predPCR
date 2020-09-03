@@ -2,16 +2,16 @@
 % Please edit documentation in R/extract_extension.R
 \name{extract_extension}
 \alias{extract_extension}
-\title{Extracts last extension of a file}
+\title{Extracts last extension of a filename}
 \usage{
-extract_extension(file)
+extract_extension(filename)
 }
 \arguments{
-\item{file}{\code{character} file to extract extension from}
+\item{filename}{\code{character} filename to extract extension from}
 }
 \value{
 A last dot(.) and text after it
 }
 \description{
-Extracts last extension of a file
+Extracts last extension of a filename
 }
