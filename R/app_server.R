@@ -29,7 +29,7 @@ app_server <- function(input, output, session) {
       updateTextInput(session, "displayedColumns", value = value)
       selectedColumns(value)
       
-      return(as.data.frame(read.csv("data/example_file.csv")))
+      return(as.data.frame(utils::read.csv("data/example_file.csv")))
     }
     
     validate(
@@ -197,11 +197,6 @@ app_server <- function(input, output, session) {
     e[[name]]
   })
   
-  model_predict <- function(tbl){
-    data.frame(curve = tbl[["runs"]],
-               prediction = predict(model(), newdata = tbl)[["data"]][["response"]])
-  }
-  
   observeEvent(input[["filetype"]],{ # reset hash on changing the data set
     old_dataset_hash(0)
   })
@@ -221,7 +216,7 @@ app_server <- function(input, output, session) {
     shinyjs::addClass(selector = "body", class = "sidebar-collapse") # it hides sidebar
     shinyjs::hide("homeclick") # it prevent click title page and move to Homepage
     
-    tmp <- model_predict(isolate({encu_table()}))
+    tmp <- model_predict(isolate({encu_table()}), model()) # model_predict is defined in R/model_predict.R file
     
     shinyjs::removeClass(selector = "body", class = "sidebar-collapse") # it unhides sidebar
     shinyjs::show("homeclick") # it allow click title page and move to Homepage

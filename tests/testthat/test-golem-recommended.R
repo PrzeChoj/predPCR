@@ -12,17 +12,16 @@
 #   expect_is(server, "function")
 # })
 # 
-# Configure this test to fit your need
 # test_that(
 #   "app launches",{
 #     skip_on_cran()
 #     skip_on_travis()
 #     skip_on_appveyor()
 #     x <- processx::process$new(
-#       "R", 
+#       "R",
 #       c(
-#         "-e", 
-#         "setwd('../../'); pkgload::load_all();run_app()"
+#         "-e",
+#         "pkgload::load_all();run_app()"
 #       )
 #     )
 #     Sys.sleep(10) # app is loading quite long

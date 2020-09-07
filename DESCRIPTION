@@ -7,32 +7,32 @@ Authors@R: c(person("Stefan", "Rödiger",
     				comment = c(ORCID = "0000-0002-1441-6512")),
 			 person("Michal", "Burdukiewicz", 
     				email = "michalburdukiewicz@gmail.com", 
-					role = c("aut"),
+					role = c("aut", "dtc"),
     				comment = c(ORCID = "0000-0001-8926-582X")),
 			 person("Przemyslaw", "Chojecki",
-			 		email = "prelysl.choj@gmail.com",
-					role = c("cre", "ctr"),
+			 		email = "premysl.choj@gmail.com",
+					role = c("cre", "aut"),
 					comment = c(GitHub = "https://github.com/PrzeChoj")),
    			 person("Paulina", "Przybylek",
    			 		email = "pp.paulinaprzybylek@gmail.com",
-   					role = "ctr",
+   					role = "aut",
 					comment = c(GitHub = "https://github.com/p-przybylek")))
-Description: Graphical interface to model for prediction result of PCR experiment
+Description: Graphical interface to model for prediction result of PCR experiment.
 License: GPL-3
 Encoding: UTF-8
 LazyData: true
 Imports: 
-    shiny,
-    golem,
-    DT,
-    htmltools,
-    mlr
+    shiny (>= 1.5.0),
+    golem (>= 0.2.1),
+    DT (>= 0.13),
+    htmltools (>= 0.5.0),
+    mlr (>= 2.17.1)
 Remotes: 
     Thinkr-open/golem
 RoxygenNote: 7.1.0
 URL: https://github.com/PrzeChoj/predPCR
 BugReports: https://github.com/PrzeChoj/predPCR/issues
 Suggests: 
-    testthat,
-    spelling
+    testthat (>= 2.3.2),
+    spelling (>= 2.1)
 Language: en-US

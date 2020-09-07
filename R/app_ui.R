@@ -102,7 +102,7 @@ app_ui <- function(request) {
                                                                                    )))))
                                             )
                                           )),
-            tags[["footer"]]("Designed by Paulina Przybyłek & Przemysław Chojecki", class = "footer"))
+            tags[["footer"]]("Designed by Paulina Przybylek & Przemyslaw Chojecki", class = "footer"))
   )
 }
 
